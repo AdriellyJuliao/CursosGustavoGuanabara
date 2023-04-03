@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, white, rgb(106, 106, 222));
+            background-attachment: fixed;
+            font-size: 15px;
+            color: black;
+        }
+        main{
+            background-color: white;
+            width: 600px;
+            border-radius: 10px;
+            padding: 10px;
+            margin: auto;
+            box-shadow: 10px 8px 8px #163c72  ;
+        }
+
+        a{
+            color: rgb(20, 30, 226);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: aqua;
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Personalizando links</h1>
+        <ul>
+            <li><a href="https://github.com/AdriellyJuliao"  target="_blank" rel="external" >Repositório Github</a></li>
+            <li><a href="https://www.youtube.com/watch?v=hH2fVZoircw&list=RDhH2fVZoircw&start_radio=1&ab_channel=CHRISMCOFICIAL"  target="_blank" rel="external" >Canal do Youtube</a></li>
+            <li><a href="https://www.cursoemvideo.com/cursos/"  target="_blank" rel="external" >Site do Curso em Video</a></li>
+            <li><a href="#">mickey</a></li>
+        </ul>
+    </main>
+</body>
+</html>

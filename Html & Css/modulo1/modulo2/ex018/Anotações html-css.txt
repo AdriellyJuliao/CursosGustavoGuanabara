@@ -1,0 +1,21 @@
+Capítulo 14 
+/* shorthand font
+font-style -> font-weight -> font- size -> font-family
+==
+font: italic bolder 3em 'Work Sans', sans-serif;
+*/
+
+
+Para saber mudar de fontes: 
+@font-face {
+font-family:"Medieval";
+ src: url('fontes/OldLondon.ttf') format('truetype'), 
+      url("fontes/Olondona.otf") format('opentype'),
+      url('fontes/OldLondonAlternate.ttf') forma ('ttp'), 
+      url('fontes/Olondon_.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+	
+
+
+Para saber fontes de sites diferentes usar a extensão Fontes nija do google
